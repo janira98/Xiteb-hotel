@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "roboto";
+}
+
+
+body {
+  color: #1A2535;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(../public/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "ptSerif";
+  src: url(../public/PTSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: "robotoMedium";
+  src: url(../public/roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: "robotoBold";
+  src: url(../public/Roboto-Bold.ttf);
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
