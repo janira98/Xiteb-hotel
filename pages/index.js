@@ -1,12 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import logo from '../../public/logo.png'
-import Carousel from '../../components/carousel';
+import logo from 'public/logo.png'
+import Carousel from '../components/carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faCalendarDays, faPersonWalkingLuggage, faTag } from '@fortawesome/free-solid-svg-icons';
 import { FaFacebook,FaTwitter,FaInstagram,FaLinkedin,FaYoutube } from "react-icons/fa";
-import CoustomDatePicker from '../../components/datepiker';
-import CustomDropdown from '../../components/dropdown'
+import CoustomDatePicker from '../components/datepiker';
+import CustomDropdown from '../components/dropdown'
 import Slmap from '../../public/lk.png';
 import Pool from '../../public/pool.jpg';
 import Card1 from '../../public/card1.jpg';
