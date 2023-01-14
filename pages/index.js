@@ -1,23 +1,23 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import logo from '../../public/logo.png'
-import Carousel from '../../components/carousel';
+import logo from '../public/logo.png'
+import Carousel from '../components/carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faCalendarDays, faPersonWalkingLuggage, faTag } from '@fortawesome/free-solid-svg-icons';
 import { FaFacebook,FaTwitter,FaInstagram,FaLinkedin,FaYoutube } from "react-icons/fa";
-import CoustomDatePicker from '../../components/datepiker';
-import CustomDropdown from '../../components/dropdown'
-import Slmap from '../../public/lk.png';
-import Pool from '../../public/pool.jpg';
-import Card1 from '../../public/card1.jpg';
-import Card2 from '../../public/card2.jpg';
-import Card3 from '../../public/card3.jpg';
-import Card4 from '../../public/card4.jpg';
-import Card5 from '../../public/card5.jpg';
-import Card6 from '../../public/card6.jpg';
-import Card7 from '../../public/card7.jpg';
-import Card8 from '../../public/card8.jpg';
-import Card9 from '../../public/card9.jpg';
+import CoustomDatePicker from '../components/datepiker';
+import CustomDropdown from '../components/dropdown'
+import Slmap from '../public/lk.png';
+import Pool from '../public/pool.jpg';
+import Card1 from '../public/card1.jpg';
+import Card2 from '../public/card2.jpg';
+import Card3 from '../public/card3.jpg';
+import Card4 from '../public/card4.jpg';
+import Card5 from '../public/card5.jpg';
+import Card6 from '../public/card6.jpg';
+import Card7 from '../public/card7.jpg';
+import Card8 from '../public/card8.jpg';
+import Card9 from '../public/card9.jpg';
 
 export default function Home() {
   return (
