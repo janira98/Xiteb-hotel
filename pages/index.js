@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import logo from '../public/logo.png'
+import logo from '../public/Logo.png'
 import Carousel from '../components/carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass, faCalendarDays, faPersonWalkingLuggage, faTag } from '@fortawesome/free-solid-svg-icons';
