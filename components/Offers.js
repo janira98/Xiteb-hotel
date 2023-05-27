@@ -48,7 +48,9 @@ const Offers = () => {
                 </div>
                 </div>
               </div>
-            </div>
+                  </div>
+                  
+                  {/* mobile view */}
                   <div className='relative overflow-hidden my-4 md:hidden block'>
                 <div className='w-[25rem] h-auto rounded-xl bg-dark-blue drop-shadow-2xl'>
                   <Image className='rounded-t-xl w-[25rem] h-72 object-cover object-center' src={Card9}></Image>

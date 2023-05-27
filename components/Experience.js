@@ -12,7 +12,7 @@ const Experience = () => {
       <div>
           <div>
             <div className=' relative flex flex-col items-center' >
-                <h4 className='font-ptSerif text-theme-blue my-4 md:text-[40px] text-[30px]'>EXPERIENCE SOMETHING NEW</h4>
+                <h4 className='font-ptSerif text-theme-blue my-4 text-center md:text-[40px] text-[30px]'>EXPERIENCE SOMETHING NEW</h4>
             </div>
             <div>
                 <div className='grid md:grid-cols-3  gap-y-12 justify-items-center md:mx-72 mb-4'>

@@ -46,7 +46,7 @@ const SearchBar = () => {
           <FontAwesomeIcon className='text-2xl mr-4' icon={faChevronLeft} onClick={() => setShowModel(false)} />
           <h1 className=' text-3xl'>Book Your Room</h1>
         </div>
-        <div className='flex flex-col items-start relative'>
+        <div className='flex flex-col items-center relative'>
           <div className='flex'>
             <FontAwesomeIcon className=' self-center text-2xl mx-3' icon={faCalendarDays} />
             <CoustomDatePicker />
@@ -61,7 +61,7 @@ const SearchBar = () => {
             <FontAwesomeIcon className='self-center text-2xl' icon={faTag} />
             <input type="text" placeholder='Coupon Code' className='rounded-3xl p-3 placeholder:text-dark-blue' />
           </div>
-           <button className='bg-dark-blue text-theme-lightBlue w-full mt-4 p-3 rounded-3xl'>Find</button>
+           <button className='bg-dark-blue text-theme-lightBlue w-[70%] mt-4 p-3 rounded-3xl'>Find</button>
         </div>
         
       </div>
