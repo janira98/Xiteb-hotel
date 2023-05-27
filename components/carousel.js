@@ -36,21 +36,21 @@ const Carousel = () => {
     return (
         
         <div>
-        <div className='text-theme-lightBlue text-[5rem] absolute z-[1] h-[720px] w-full flex items-center justify-between p-8 opacity-0 hover:opacity-100 duration-700 ease-in-out '>
+        <div className='text-theme-lightBlue md:text-[5rem] text-[2rem] absolute z-[1] h-[720px] w-full flex items-center justify-between p-8 opacity-0 hover:opacity-100 duration-700 ease-in-out '>
                 <FontAwesomeIcon icon={faAngleLeft} onClick={customPrev} />
 
-            <FontAwesomeIcon icon={faAngleRight} onClick={customNext} />
+            <FontAwesomeIcon icon={faAngleRight} onClick={customNext}/>
             </div>
         <Slider className='relative' {...settings} ref={(c) => (slider = c)}>
                 
             <div>
-                <Image className=' h-[720px] w-full' src={image1}></Image>
+                <Image className=' h-[720px] w-full object-cover' src={image1}></Image>
             </div>
             <div>
-                <Image className=' h-[720px] w-full' src={image2}></Image>
+                <Image className=' h-[720px] w-full object-cover' src={image2}></Image>
             </div>
             <div>
-                <Image className=' h-[720px] w-full' src={image3}></Image>
+                <Image className=' h-[720px] w-full object-cover' src={image3}></Image>
             </div>
             </Slider>
             
